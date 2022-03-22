@@ -25,5 +25,14 @@ if covidData != None:
     notification.notify(
     
     title = "COVID-19 Statistics for {}".format(datetime.date.today())
+    
+    message = "Total Cases: {totalcases}\nNew Cases Today: {todaycases}\nTotal Deaths: {totaldeaths}\nNew Deaths Today: {todaydeaths}\nTotal Active: {active}\nTotal Critical: {critical}".format(
+                        totalcases = data['cases'],
+                        todaycases = data['todayCases'],
+                        todaydeaths = data['todayDeaths'],
+                        active = data["active"],
+                        critical = data["critical"]),
+      
+                        app_icon = ""
     )
     
