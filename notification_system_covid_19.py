@@ -22,4 +22,8 @@ if covidData != None:
   
   while True:
     
-    notification.notify()
+    notification.notify(
+    
+    title = "COVID-19 Statistics for {}".format(datetime.date.today())
+    )
+    
