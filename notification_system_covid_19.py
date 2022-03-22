@@ -33,6 +33,16 @@ if covidData != None:
                         active = data["active"],
                         critical = data["critical"]),
       
-                        app_icon = ""
+                        # icon for notification
+      
+                        app_icon = "299096_calendar_clock_icon.ico"
+                        
+                        # how long notification is on the screen
+                        
+                        timeout = 60
     )
+
+# repeats after every 5 hours
+
+time.sleep(60*60*5)
     
