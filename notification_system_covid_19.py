@@ -35,7 +35,7 @@ if covidData != None:
       
                         # icon for notification
       
-                        app_icon = "299096_calendar_clock_icon.ico"
+                        app_icon = "299096_calendar_clock_icon.ico",
                         
                         # how long notification is on the screen
                         
