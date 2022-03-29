@@ -16,7 +16,7 @@ except:
   
   print("Error processing data! Please check your internet/data connection!")
 
-if covidData != None:
+if (covidData != None):
   
   data = covidData.json()["Success"]
   
