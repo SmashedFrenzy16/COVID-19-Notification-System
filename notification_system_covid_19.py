@@ -18,7 +18,7 @@ except:
 
 if covidData != None:
   
-  data = CovidData.json()["Success"]
+  data = covidData.json()["Success"]
   
   while True:
     
